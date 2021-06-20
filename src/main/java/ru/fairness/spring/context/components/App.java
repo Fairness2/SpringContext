@@ -1,14 +1,14 @@
 package ru.fairness.spring.context.components;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import ru.fairness.spring.context.models.Product;
 import ru.fairness.spring.context.repositories.ProductRepository;
 
 import java.util.List;
 import java.util.Scanner;
 
-@Component()
+@Service
 public class App {
 
     private ProductRepository productRepository;
